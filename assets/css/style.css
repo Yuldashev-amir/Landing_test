@@ -1,8 +1,90 @@
 @font-face {
     font-family: "PF Din Text Comp Pro";
-    src: url("../");
+    src: url("../fonts/PFDinTextCompPro-BoldItalic/PFDinTextCompPro-BoldItalic.woff") format("woff"),
+    url("../fonts/PFDinTextCompPro-BoldItalic/PFDinTextCompPro-BoldItalic.woff2") format("woff2");
 }
 
 body {
     background-color: #000;
+    font-family: "PF Din Text Comp Pro", "Montserrat";
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* Button */
+.btn__intro {
+    background-color: #f00;
+    width: 255px;
+    height: 55px;
+
+    text-transform: uppercase;
+    font-family: "PF Din Text Comp Pro";
+    font-size: 24px;
+    line-height: 28,8px;
+    color: #fff;
+    font-weight: 700;
+
+    border-radius: 10%, 5px, 5px, 5px;
+
+
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 375px;
+
+}
+
+
+/* Intro */
+
+
+.intro__inner {
+    display: flex;
+    flex-direction: row;
+
+}
+.intro__title {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 64px;
+    width: 538px;
+}
+
+.intro__subtitle {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 36px;
+    padding-top: 15px;
+
+}
+
+.image__cloudy {
+    position: absolute;
+    top: 420px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
