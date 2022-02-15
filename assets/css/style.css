@@ -20,6 +20,16 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+li {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1;
+    font-family: "PF Din Text Comp Pro";
+    padding-top: 5px;
+
+}
+
 
 /* Container */
 .container {
@@ -252,8 +262,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* works */
-.works {
+.works__inner {
     display: flex;
+    position: relative;
+    flex-wrap: wrap;
 }
 
 
@@ -265,21 +277,120 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
     text-align: center;
     padding: 60px;
+    margin: 0  auto;
 
 }
 
 .works__item {
     width: 45%;
+    max-width: 560px;
     padding: 60px 30px;
-    z-index: 2;
+
 }
 
 .works__decoration {
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     top: 1869px;
     left: 950px;
     right: 0;
     bottom: 0;
 
 }
+
+
+.list__title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "PF Din Text Comp Pro";
+    line-height: 1;
+    padding-top: 5px;
+
+}
+
+
+
+/* cards*/
+
+.cards__title--main {
+    font-weight: 900;
+    font-size: 64px;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 838px;
+    margin-left: 150px;
+
+}
+
+.cards__section {
+    background-color: #121E3A;
+
+    width: 1170px;
+    height: 550px;
+    width: 100%;
+
+    border: 1px solid #121E3A;
+    border-radius: 10px;
+
+
+}
+
+.cards__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.cards__title {
+    font-family: "Montserrat";
+    font-size: 72px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    width: 799px;
+
+    padding-bottom: 15px;
+
+
+
+}
+
+.cards__subtitle {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 1;
+    font-family: "PF Din Text Comp Pro";
+    width: 505px;
+
+    padding-bottom: 15px;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    width: 591px;
+    font-family: "PF Din Text Comp Pro";
+
+    padding-bottom: 15px;
+}
+
+.cards__button {
+    background-color: #f00;
+    Width: 250px;
+    Height: 100px;
+    border-radius: 30px;
+
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: "PF Din Text Comp Pro";
+
+}
+
+
+
