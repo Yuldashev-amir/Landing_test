@@ -257,6 +257,13 @@ li {
     margin-top: 60px;
     padding-right: 40px;
 
+
+}
+
+.section__images {
+    max-width: 210px;
+    max-height: 210px;
+
 }
 
 
@@ -479,12 +486,11 @@ li {
 /* promo*/
 
 .promo__section {
-    background-color: #E731FC;
-    background: linear-gradient( 45deg, #E731FC 0%
-    #652DAC 55.34%
-    #FFA279 93.53%);
-    border-radius: 15px;
 
+    background-image: linear-gradient(to right bottom, #E731FC 0%,
+    #652DAC 55.34%,
+    #FFA279 95.53%);
+    border-radius: 15px;
 
     max-width: 1170px;
     max-height: 500px;
@@ -504,6 +510,10 @@ li {
 
 }
 
+.promo__inner {
+    position: relative;
+}
+
 .promo__title {
     font-weight: 900;
     color: #FFFFFF;
@@ -517,7 +527,7 @@ li {
 
 }
 
-.promo__title {
+.promo__text {
     font-size: 24px;
     font-weight: 400;
     color: #FFFFFF;
@@ -547,4 +557,143 @@ li {
     font-family: "PF Din Text Comp Pro";
     text-transform: uppercase;
     text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+.promo__link {
+    color: #FFFFFF;
+
+}
+
+.promo__devices {
+    position: absolute;
+    z-index: 1;
+    top: -70px;
+    left: 876px;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+.promo__icons {
+    position: absolute;
+    top: 210px;
+    left: 580px;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+.promo__section--two {
+    background-image: linear-gradient(to right bottom, #00FF79 0%,
+    #00CF62 55.34%,
+    #00FF79 95.53%);
+    border-radius: 15px;
+
+    max-width: 1170px;
+    max-height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+
+}
+
+.promo__devices--two {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 816px;
+    right: 0;
+    bottom: 0;
+
+}
+
+.promo__section--three {
+    background-image: linear-gradient(to right bottom, #FF00E5 0%,
+    #FF00E5 55.34%,
+    #FFC3F9 95.53%);
+    border-radius: 15px;
+
+    max-width: 1170px;
+    max-height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+
+}
+
+
+.promo__devices--three {
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 656px;
+    right: 0;
+    bottom: 0;
+
+}
+
+.promo__icons--three {
+    position: absolute;
+    z-index: 1;
+    top: 170px;
+    left: 886px;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+
+/*Footer*/
+
+.footer__title {
+    font-weight: 900;
+    font-size: 72px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    width: 1087px;
+    margin-top: 60px;
+
+}
+
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+
+
+}
+
+.footer__input {
+    max-width: 500px;
+    max-height: 90px;
+    margin-top: 40px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px 10px;
+    font-family: inherit;
+
+
+}
+
+.footer__btn {
+    background-color: #f00;
+    Width: 250px;
+    Height: 100px;
+    border-radius: 30px;
+
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: "PF Din Text Comp Pro";
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px auto;
 }
