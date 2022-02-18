@@ -434,5 +434,117 @@ li {
     z-index: 1;
 }
 
+.cards__footer--title {
+    text-align: center;
+    font-weight: 900;
+    color: #FFFFFF;
+    max-width: 1222px;
+    font-size: 44px;
+    text-transform: uppercase;
+    margin-top: 90px;
 
 
+}
+
+.cards__footer--subtitle {
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    max-width: 939px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 110px;
+    text-transform: uppercase;
+}
+
+.cards__footer--btn {
+    background-color: #f00;
+    Width: 250px;
+    Height: 100px;
+    border-radius: 30px;
+
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: "PF Din Text Comp Pro";
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 410px;
+    margin-top: 60px;
+}
+
+
+
+
+/* promo*/
+
+.promo__section {
+    background-color: #E731FC;
+    background: linear-gradient( 45deg, #E731FC 0%
+    #652DAC 55.34%
+    #FFA279 93.53%);
+    border-radius: 15px;
+
+
+    max-width: 1170px;
+    max-height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+
+}
+
+
+.promo__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+
+
+}
+
+.promo__title {
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-size: 72px;
+    text-transform: uppercase;
+    max-width: 880px;
+    text-align: left;
+
+
+
+}
+
+.promo__title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 722px;
+
+}
+
+
+.promo__action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+
+.promo__button {
+    background-color: #f00;
+    Width: 250px;
+    Height: 100px;
+    border-radius: 30px;
+
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: "PF Din Text Comp Pro";
+    text-transform: uppercase;
+    text-align: center;
+}
