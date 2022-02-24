@@ -269,6 +269,7 @@ li {
 
 
 /* works */
+
 .works__inner {
     display: flex;
     position: relative;
@@ -302,6 +303,16 @@ li {
     left: 950px;
     right: 0;
     bottom: 0;
+
+}
+
+.works__decoration--two {
+    position: absolute;
+    top: -340px;
+    left: -190px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 
 }
 
@@ -705,11 +716,26 @@ li {
 }
 
 .footer__text {
-    color: #FFFFFF;
+    color: #000;
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 24px;
+    margin-bottom: 25px;
+    max-width: 386px;
 
+}
+
+
+
+.footer__image {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.footer__link {
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+    margin-left: 20px;
 }
 
 
@@ -720,10 +746,10 @@ li {
 
 .footer__inner {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .footer__item {
-    display: block;
-    flex-direction: column;
+    display: inline-block;
 }
