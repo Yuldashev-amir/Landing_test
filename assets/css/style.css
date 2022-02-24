@@ -720,9 +720,10 @@ li {
 
 .footer__inner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .footer__item {
+    display: block;
     flex-direction: column;
 }
